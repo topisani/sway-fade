@@ -2,6 +2,8 @@
 name = "sway-fade"
 version = "0.1.0"
 edition = "2018"
+description = "Tool to fade sway windows in and out"
+license = "MIT"
 
 [dependencies]
 async-std = { version = "1.9.0", features = ["attributes"] }
