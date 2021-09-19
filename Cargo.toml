@@ -1,0 +1,10 @@
+[package]
+name = "sway-fade"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+async-std = { version = "1.9.0", features = ["attributes"] }
+rand = "0.8.4"
+structopt = "0.3.22"
+swayipc-async = { version = "2.0.0-alpha.3", git="https://github.com/topisani/swayipc-rs" }
